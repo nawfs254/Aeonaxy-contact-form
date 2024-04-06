@@ -14,11 +14,13 @@ import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 import FormPage from './pages/FormPage';
 import Login from './pages/Login';
+import ErrorPage from './pages/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement: <ErrorPage> </ErrorPage>,
     children: [
       {
         path: "/",
