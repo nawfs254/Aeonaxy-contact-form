@@ -8,7 +8,7 @@ const SignUp = () => {
 
     return (
         <div className='flex flex-col-reverse lg:flex-row gap-4 w-full lg:w-4/5 mx-auto'>
-            <div className='w-full lg:w-1/2 bg-white'>
+            <div className='w-full lg:w-1/2 bg-white text-center lg:text-left'>
                 <h2 className="font-bold text-2xl md:text-3xl p-2 lg:p-0">Some Other Ways to contact with us</h2>
 
                 <div className="space-y-3 my-3">
